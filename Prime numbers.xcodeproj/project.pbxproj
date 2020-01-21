@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842AF71523D72B8E00ABC630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AF71423D72B8E00ABC630 /* AppDelegate.swift */; };
+		842AF71723D72B8E00ABC630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AF71623D72B8E00ABC630 /* SceneDelegate.swift */; };
+		842AF71923D72B8E00ABC630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AF71823D72B8E00ABC630 /* ViewController.swift */; };
+		842AF71C23D72B8E00ABC630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842AF71A23D72B8E00ABC630 /* Main.storyboard */; };
+		842AF71E23D72B8F00ABC630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842AF71D23D72B8F00ABC630 /* Assets.xcassets */; };
+		842AF72123D72B8F00ABC630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842AF71F23D72B8F00ABC630 /* LaunchScreen.storyboard */; };
+		842AF72C23D72B8F00ABC630 /* Prime_numbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AF72B23D72B8F00ABC630 /* Prime_numbersTests.swift */; };
+		842AF73723D72B8F00ABC630 /* Prime_numbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AF73623D72B8F00ABC630 /* Prime_numbersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842AF72823D72B8F00ABC630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842AF70923D72B8E00ABC630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842AF71023D72B8E00ABC630;
+			remoteInfo = "Prime numbers";
+		};
+		842AF73323D72B8F00ABC630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842AF70923D72B8E00ABC630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842AF71023D72B8E00ABC630;
+			remoteInfo = "Prime numbers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842AF71123D72B8E00ABC630 /* Prime numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prime numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842AF71423D72B8E00ABC630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842AF71623D72B8E00ABC630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		842AF71823D72B8E00ABC630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842AF71B23D72B8E00ABC630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842AF71D23D72B8F00ABC630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842AF72023D72B8F00ABC630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842AF72223D72B8F00ABC630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842AF72723D72B8F00ABC630 /* Prime numbersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime numbersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842AF72B23D72B8F00ABC630 /* Prime_numbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_numbersTests.swift; sourceTree = "<group>"; };
+		842AF72D23D72B8F00ABC630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842AF73223D72B8F00ABC630 /* Prime numbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prime numbersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842AF73623D72B8F00ABC630 /* Prime_numbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime_numbersUITests.swift; sourceTree = "<group>"; };
+		842AF73823D72B8F00ABC630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842AF70E23D72B8E00ABC630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842AF72423D72B8F00ABC630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842AF72F23D72B8F00ABC630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842AF70823D72B8E00ABC630 = {
+			isa = PBXGroup;
+			children = (
+				842AF71323D72B8E00ABC630 /* Prime numbers */,
+				842AF72A23D72B8F00ABC630 /* Prime numbersTests */,
+				842AF73523D72B8F00ABC630 /* Prime numbersUITests */,
+				842AF71223D72B8E00ABC630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842AF71223D72B8E00ABC630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842AF71123D72B8E00ABC630 /* Prime numbers.app */,
+				842AF72723D72B8F00ABC630 /* Prime numbersTests.xctest */,
+				842AF73223D72B8F00ABC630 /* Prime numbersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842AF71323D72B8E00ABC630 /* Prime numbers */ = {
+			isa = PBXGroup;
+			children = (
+				842AF71423D72B8E00ABC630 /* AppDelegate.swift */,
+				842AF71623D72B8E00ABC630 /* SceneDelegate.swift */,
+				842AF71823D72B8E00ABC630 /* ViewController.swift */,
+				842AF71A23D72B8E00ABC630 /* Main.storyboard */,
+				842AF71D23D72B8F00ABC630 /* Assets.xcassets */,
+				842AF71F23D72B8F00ABC630 /* LaunchScreen.storyboard */,
+				842AF72223D72B8F00ABC630 /* Info.plist */,
+			);
+			path = "Prime numbers";
+			sourceTree = "<group>";
+		};
+		842AF72A23D72B8F00ABC630 /* Prime numbersTests */ = {
+			isa = PBXGroup;
+			children = (
+				842AF72B23D72B8F00ABC630 /* Prime_numbersTests.swift */,
+				842AF72D23D72B8F00ABC630 /* Info.plist */,
+			);
+			path = "Prime numbersTests";
+			sourceTree = "<group>";
+		};
+		842AF73523D72B8F00ABC630 /* Prime numbersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842AF73623D72B8F00ABC630 /* Prime_numbersUITests.swift */,
+				842AF73823D72B8F00ABC630 /* Info.plist */,
+			);
+			path = "Prime numbersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842AF71023D72B8E00ABC630 /* Prime numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842AF73B23D72B8F00ABC630 /* Build configuration list for PBXNativeTarget "Prime numbers" */;
+			buildPhases = (
+				842AF70D23D72B8E00ABC630 /* Sources */,
+				842AF70E23D72B8E00ABC630 /* Frameworks */,
+				842AF70F23D72B8E00ABC630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prime numbers";
+			productName = "Prime numbers";
+			productReference = 842AF71123D72B8E00ABC630 /* Prime numbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842AF72623D72B8F00ABC630 /* Prime numbersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842AF73E23D72B8F00ABC630 /* Build configuration list for PBXNativeTarget "Prime numbersTests" */;
+			buildPhases = (
+				842AF72323D72B8F00ABC630 /* Sources */,
+				842AF72423D72B8F00ABC630 /* Frameworks */,
+				842AF72523D72B8F00ABC630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842AF72923D72B8F00ABC630 /* PBXTargetDependency */,
+			);
+			name = "Prime numbersTests";
+			productName = "Prime numbersTests";
+			productReference = 842AF72723D72B8F00ABC630 /* Prime numbersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842AF73123D72B8F00ABC630 /* Prime numbersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842AF74123D72B8F00ABC630 /* Build configuration list for PBXNativeTarget "Prime numbersUITests" */;
+			buildPhases = (
+				842AF72E23D72B8F00ABC630 /* Sources */,
+				842AF72F23D72B8F00ABC630 /* Frameworks */,
+				842AF73023D72B8F00ABC630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842AF73423D72B8F00ABC630 /* PBXTargetDependency */,
+			);
+			name = "Prime numbersUITests";
+			productName = "Prime numbersUITests";
+			productReference = 842AF73223D72B8F00ABC630 /* Prime numbersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842AF70923D72B8E00ABC630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "AM Kirsch";
+				TargetAttributes = {
+					842AF71023D72B8E00ABC630 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					842AF72623D72B8F00ABC630 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 842AF71023D72B8E00ABC630;
+					};
+					842AF73123D72B8F00ABC630 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 842AF71023D72B8E00ABC630;
+					};
+				};
+			};
+			buildConfigurationList = 842AF70C23D72B8E00ABC630 /* Build configuration list for PBXProject "Prime numbers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842AF70823D72B8E00ABC630;
+			productRefGroup = 842AF71223D72B8E00ABC630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842AF71023D72B8E00ABC630 /* Prime numbers */,
+				842AF72623D72B8F00ABC630 /* Prime numbersTests */,
+				842AF73123D72B8F00ABC630 /* Prime numbersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842AF70F23D72B8E00ABC630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF72123D72B8F00ABC630 /* LaunchScreen.storyboard in Resources */,
+				842AF71E23D72B8F00ABC630 /* Assets.xcassets in Resources */,
+				842AF71C23D72B8E00ABC630 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842AF72523D72B8F00ABC630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842AF73023D72B8F00ABC630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842AF70D23D72B8E00ABC630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF71923D72B8E00ABC630 /* ViewController.swift in Sources */,
+				842AF71523D72B8E00ABC630 /* AppDelegate.swift in Sources */,
+				842AF71723D72B8E00ABC630 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842AF72323D72B8F00ABC630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF72C23D72B8F00ABC630 /* Prime_numbersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842AF72E23D72B8F00ABC630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF73723D72B8F00ABC630 /* Prime_numbersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842AF72923D72B8F00ABC630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842AF71023D72B8E00ABC630 /* Prime numbers */;
+			targetProxy = 842AF72823D72B8F00ABC630 /* PBXContainerItemProxy */;
+		};
+		842AF73423D72B8F00ABC630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842AF71023D72B8E00ABC630 /* Prime numbers */;
+			targetProxy = 842AF73323D72B8F00ABC630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842AF71A23D72B8E00ABC630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842AF71B23D72B8E00ABC630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842AF71F23D72B8F00ABC630 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842AF72023D72B8F00ABC630 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842AF73923D72B8F00ABC630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842AF73A23D72B8F00ABC630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842AF73C23D72B8F00ABC630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prime numbers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Prime-numbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842AF73D23D72B8F00ABC630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prime numbers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Prime-numbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		842AF73F23D72B8F00ABC630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prime numbersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Prime-numbersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prime numbers.app/Prime numbers";
+			};
+			name = Debug;
+		};
+		842AF74023D72B8F00ABC630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prime numbersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Prime-numbersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prime numbers.app/Prime numbers";
+			};
+			name = Release;
+		};
+		842AF74223D72B8F00ABC630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prime numbersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Prime-numbersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prime numbers";
+			};
+			name = Debug;
+		};
+		842AF74323D72B8F00ABC630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prime numbersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Prime-numbersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prime numbers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842AF70C23D72B8E00ABC630 /* Build configuration list for PBXProject "Prime numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842AF73923D72B8F00ABC630 /* Debug */,
+				842AF73A23D72B8F00ABC630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842AF73B23D72B8F00ABC630 /* Build configuration list for PBXNativeTarget "Prime numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842AF73C23D72B8F00ABC630 /* Debug */,
+				842AF73D23D72B8F00ABC630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842AF73E23D72B8F00ABC630 /* Build configuration list for PBXNativeTarget "Prime numbersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842AF73F23D72B8F00ABC630 /* Debug */,
+				842AF74023D72B8F00ABC630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842AF74123D72B8F00ABC630 /* Build configuration list for PBXNativeTarget "Prime numbersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842AF74223D72B8F00ABC630 /* Debug */,
+				842AF74323D72B8F00ABC630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842AF70923D72B8E00ABC630 /* Project object */;
+}
